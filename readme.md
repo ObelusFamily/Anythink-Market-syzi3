@@ -10,4 +10,7 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Clone the [repository](https://github.com/ObelusFamily/Anythink-Market-syzi3).
+2. Install [docker](https://docs.docker.com/get-docker/) .
+3. Run `docker compose up` from the root directory of the repository.
+4. If everything is working correctly, you should be able to ping http://localhost:3000/api/ping, and the front-end should be available on http://localhost:3001.
